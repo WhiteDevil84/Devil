@@ -3,7 +3,7 @@ public class Rock_Paper_Scissor
 {
     public static void main(String[]Args)
     {
-        System.out.println("Simple rock paper scissor game in java by Vaibhav Raut");
+        System.out.println("Simple rock paper scissor game in java by White_Devil");
         System.out.println("In this game you wil play with computer"); 
         Scanner sc =new Scanner(System.in);                                   //Just a simple rock paper scissor game using java
         int min,max;
