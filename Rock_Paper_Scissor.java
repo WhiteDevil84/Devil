@@ -9,10 +9,10 @@ public class Rock_Paper_Scissor
         int min,max;
         min = 0;         
         max =2;
-         System.out.println("choose 0 for rock , 1 for paper ,and 2 for scossor");
+         System.out.println("choose 0 for rock , 1 for paper ,and 2 for scissor");
          int choice = sc.nextInt();
          int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);      // for generating random numbers 0-2
-         System.out.println("your value is "+choice+ " System value is "+random_int);
+         System.out.println("your choice is "+choice+ " System choice is "+random_int);
          switch(choice)
          {
              case 0:
